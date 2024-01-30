@@ -11,6 +11,13 @@ body {
     width: 300px;
 }
 
+.sadebar_navigation .logo-spotify {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+}
+
 .sadebar_navigation {
     background-color: #121212;
     border-radius: 8px;
@@ -19,5 +26,21 @@ body {
 
 .logo-spotify img {
     width: 80px;
-    height: ;
+}
+
+.sadebar nav ul {
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.sadebar ul li {
+    padding: 10px 0px;
+}
+
+.sadebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Dm Sans', sans-serif;
 }
